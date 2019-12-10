@@ -76,7 +76,7 @@ VS CODE
 
 (18) Open config/config.json file and change settings to connect to the database.: ![Update database connection info in config-config json file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489699-7bbe3380-1aca-11ea-9c15-13b28b09aca0.JPG)
 
-(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: 
+(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: ![Require models in app js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489768-a8724b00-1aca-11ea-9f74-1e8dd8b3afda.JPG)
 
 (20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
 
