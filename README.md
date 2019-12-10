@@ -76,23 +76,23 @@ VS CODE
 
 (18) Open config/config.json file and change settings to connect to the database.: 
 
-(20) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: 
+(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: 
 
-(21) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
+(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
 
-(22) In the routes/index.js file require the models.: 
+(21) In the routes/index.js file require the models.: 
 
-(23) In the routes/index.js file add get() route for /actors that will use the findAll() method.: 
+(22) In the routes/index.js file add get() route for /actors that will use the findAll() method.: 
 
 COMMAND PROMPT
 
-(24) Run nodemon in terminal to see DB sync'd up: 
+(23) Run nodemon in terminal to see DB sync'd up: 
 
     nodemon
 
 POSTMAN
 
-(25) Navigate to localhost3000/actors in Postman and perform a GET request to view data.: 
+(24) Navigate to localhost3000/actors in Postman and perform a GET request to view data.: 
 
 NODEMON NOTE
 
