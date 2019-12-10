@@ -19,15 +19,15 @@ COMMAND PROMPT
 
     npm install express-generator -g
 
-(5) Enter the following command to generate the Express starter app. This will set the view to use Handlebars and will name the app express_Sequelize_RESTfulAPI_: 
+(5) Enter the following command to generate the Express starter app. This will set the view to use Handlebars and will name the app express_Sequelize_RESTfulAPI_ParameterizedRoute: 
 
-    express --view=hbs express_Sequelize_RESTfulAPI_
+    express --view=hbs express_Sequelize_RESTfulAPI_ParameterizedRoute
 
-(6) Once the process is complete, navigate into the express_Sequelize_RESTfulAPI_ directory: 
+(6) Once the process is complete, navigate into the express_Sequelize_RESTfulAPI_ParameterizedRoute directory: 
 
-    cd express_Sequelize_RESTfulAPI_
+    cd express_Sequelize_RESTfulAPI_ParameterizedRoute
     
-(7) Now in the express_Sequelize_RESTfulAPI_ directory, run the following: 
+(7) Now in the express_Sequelize_RESTfulAPI_ParameterizedRoute directory, run the following: 
 
     npm install
 
@@ -35,7 +35,7 @@ COMMAND PROMPT
 
     npm install -g nodemon
     
-(9) Install Nodemon as a devDependency in the package.json file within the express_Sequelize_RESTfulAPI_ directory:
+(9) Install Nodemon as a devDependency in the package.json file within the express_Sequelize_RESTfulAPI_ParameterizedRoute directory:
 
     npm install -save-dev nodemon
     
