@@ -72,11 +72,9 @@ VS CODE
 
 ![Update the associations js file in the rel folder (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489483-e884fe00-1ac9-11ea-93cb-b4c25115f05d.JPG)
 
-(17) In the models/index.js file add associations constant: 
+(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: ![Call associations function in models-index js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489585-326de400-1aca-11ea-8ad9-4c9f076914b4.JPG)
 
-(18) At the bottom of the models/index.js file add the call to associations function.: 
-
-(19) Open config/config.json file and change settings to connect to the database.: 
+(18) Open config/config.json file and change settings to connect to the database.: 
 
 (20) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: 
 
